@@ -1,7 +1,7 @@
 # Huffman dictionary consisting of 54 characters below
 # Important! No one code can be a prefix for another code
 dictionary = {
-  '\n': 010100,
+  '\n': '010100',
   '2': '010101',
   '4': '010110',
   '9': '010111',
