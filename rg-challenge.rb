@@ -73,11 +73,9 @@ def translate(dictionary, input)
     if dictionary.key first_five
       translation.push dictionary.key first_five
       input_split.shift(5)
-      puts ' '
     else
       translation.push dictionary.key first_six
       input_split.shift(6)
-      puts ' '
     end
   end
 
